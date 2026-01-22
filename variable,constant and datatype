@@ -1,0 +1,17 @@
+CODE
+#include <stdio.h>
+int main() {
+    int a = 10;
+    float b = 5.5;
+    char c = 'A';
+    const int PI = 3;
+    printf(" %d test\n %.1f helo\n %c\n %d\n", a, b, c, PI);
+    return 0;
+}
+
+
+OUTPUT
+ 10 test
+ 5.5 helo
+ A
+ 3
